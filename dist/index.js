@@ -1,6 +1,1 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-function test1() {
-    return ("test1");
-}
-exports.test1 = test1;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const comUtils=require("./common/comUtils");function test1(){return"test1"}function test2(t){return comUtils.DeepCopy(t)}exports.comUtils=comUtils,exports.test1=test1,exports.test2=test2;
