@@ -7,10 +7,4 @@ describe('getPlural function test', () => {
     var result = index.test1();
     expect(result).to.equal("test1");
   });
-
-  it('should return Girls', () => {
-    var test = {a:1};
-    var result = index.test2(test);
-    expect(result.a).to.equal(test.a);
-  });
 })
