@@ -6,11 +6,11 @@
  */
 
 import * as comUtils from "./common/comUtils";
-import * as common from "./inc/common";
+import { IVector, IFixedIndexData } from "./inc/common";
 import { XtrFixedDosCalcBase } from "./inc/XtrFixedDosCalcBase";
 import { IFixedDosCalcWrapper, IFixedDosCalcObject, IFixedDosConfig } from "./inc/IFixedDosCalcObject";
 
-export { common };
+export { IVector, IFixedIndexData };
 export { comUtils };
 export { XtrFixedDosCalcBase };
 export { IFixedDosCalcWrapper, IFixedDosCalcObject, IFixedDosConfig };
