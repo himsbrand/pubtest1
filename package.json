@@ -6,7 +6,8 @@
   "types": "types/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js -- -R spec"
   },
   "repository": {
     "type": "git",
@@ -25,13 +26,15 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "coveralls": "^3.0.3",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-replace": "^1.0.0",
     "gulp-typescript": "^5.0.0",
     "gulp-uglify": "^3.0.1",
-    "gulp-uglify-es": "^1.0.4",    
+    "gulp-uglify-es": "^1.0.4",
+    "istanbul": "^0.4.5",
     "mocha": "^5.2.0"
   }
 }
