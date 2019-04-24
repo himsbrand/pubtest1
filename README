@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/himsbrand/pubtest1.svg?branch=master)](https://travis-ci.org/himsbrand/pubtest1)
+[![Coverage Status](https://coveralls.io/repos/github/himsbrand/pubtest1/badge.svg?branch=master)](https://coveralls.io/github/himsbrand/pubtest1?branch=master)
+
 # pubtest1
 A Node.js module that returns the plural form of any noun
 ## Installation 
